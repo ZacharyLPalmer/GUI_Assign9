@@ -1,0 +1,158 @@
+/* Name: Zachary Palmer
+Date: 12/4/18
+Assignment: 8
+Class: GUI 1
+*/
+
+
+html {
+    display: table;
+    margin: auto;
+}
+
+#header {
+    display: inline-block;
+    width: 850px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    display: inline-block;
+    background-image: url("../media/felt.jpg");
+}
+
+
+#info {
+    border-width: 2px;
+    color: white;
+    border-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    margin-right: 10px;
+    background-color: rgb(122, 45, 0);
+}
+
+#tileCount {
+    text-align: center;
+    float: left;
+    padding: 5px 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#currentScore {
+    float: right;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 5px 5px;
+    width: 200px;
+}
+
+#currentWord {
+    text-align: center;
+    float: left;
+    padding: 5px 5px;
+    width: 150px;
+}
+
+#currentWord2 {
+    text-align: center;
+    float: left;
+    padding: 5px 5px;
+    width: 185px;
+}
+
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(122, 45, 0);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 20px;
+    margin: 10px;
+    width: 130px;
+    height: 100px;
+  }
+
+#board {
+    display: inline-block;
+}
+
+#holder {
+    width: 1000px;
+    height: 75px;
+}
+
+#tile_holder {
+    margin: 10px;
+    width: 500px;
+    height: 100px;
+    background-image: url("../media/tile_holder.jpg");
+    float: right;
+}
+
+.board_tile_img {
+    width: 50px;
+    height: 50px;
+}
+
+.game_tile_holder {
+    margin-top:20px;
+    margin-left:15px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.game_tile {
+    width: 50px;
+    height: 50px;
+}
+
+.game_tile_img {
+    width: 50px;
+    height: 50px;
+}
+
+.board_tile {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url("../media/empty_space.jpg");
+}
+
+.double_word {
+    background-image: url("../media/double_word.jpg");
+}
+
+
+.triple_word {
+    background-image: url("../media/triple_word.jpg");
+}
+
+.double_letter {
+    background-image: url("../media/double_letter.jpg");
+}
+
+.triple_letter {
+    background-image: url("../media/triple_letter.jpg");
+}
+
+.double_word_center {
+    background-image: url("../media/double_word_center.jpg");
+}
