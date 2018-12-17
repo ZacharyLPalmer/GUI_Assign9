@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-
+<!-- 
+Name: Zachary Palmer
+Date: 12/19/18
+Assignment: 9
+Class: GUI 1
+-->
 <head>
   <title>Scrabble</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/scrabble.css">
   <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
-  <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
   <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
@@ -15,6 +20,10 @@
 
 <body>
   <h1 id="header">Scrabble(ish)</h1>
+  <div id="message" title="Uh-oh!">
+  The word you played wasn't valid! It must be two or more characters with no spaces!
+<!--Lines 26 - 506 are the game board-->
+</div>
   <div id="board">
     <div id="line1">
       <div id="space1" class="board_tile triple_word" effect="tw">
@@ -496,6 +505,7 @@
       <div id="space15" class="board_tile triple_word" effect="tw">
     </div>
   </div>
+  <!--Info block with all the various outputs-->
   <div id = "info">
     <div id="tileCount">
     </div>
@@ -509,7 +519,7 @@
       Word Score: 0
     </div>
   </div>
-  <div id="controls">
+    <!--Letter holder-->
     <div id="tile_holder">
       <div id="tile1" class="game_tile_holder"></div>
       <div id="tile2" class="game_tile_holder"></div>
@@ -519,13 +529,13 @@
       <div id="tile6" class="game_tile_holder"></div>
       <div id="tile7" class="game_tile_holder"></div>
     </div>
+    <!--Buttons!-->
     <button class="button" id="generate">
       Refresh Your Letters
     </button>
     <button class="button" id="save">
       Submit Current Word
     </button>
-  </div>
 <script src="js/scrabble.js"></script>
 
 </body>
